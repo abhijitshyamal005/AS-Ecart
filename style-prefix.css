@@ -1,8 +1,4 @@
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
-
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -784,8 +780,8 @@ b{
 .banner-text { display: none; }
 
 .banner-btn {
-  background: var(--salmon-pink);
-  color: var(--white);
+  background:#fc6c85;
+  color: white;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -800,7 +796,9 @@ b{
   transition: var(--transition-timing);
 }
 
-.banner-btn:hover { background: var(--eerie-black); }
+.banner-btn:hover { background:white;
+  color:black;
+  border: 2px solid #fc6c85;}
 
 
 
